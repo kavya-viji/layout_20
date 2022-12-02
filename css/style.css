@@ -1,0 +1,542 @@
+.header .wrapper
+{
+width:100%;
+margin:auto;
+}
+.new .wrapper
+{
+width:100%;
+margin:auto;
+}
+.about .wrapper
+{
+width:90%;
+margin:auto;
+}
+.service .wrapper
+{
+width:90%;
+margin:auto;
+}
+.action .wrapper
+{
+width:90%;
+margin:auto;
+}
+.portfolio .wrapper
+{
+width:90%;
+margin:auto;
+}
+.faq .wrapper
+{
+width:90%;
+margin:auto;
+}
+.team .wrapper
+{
+width:90%;
+margin:auto;
+}
+.contact .wrapper
+{
+width:90%;
+margin:auto;
+}
+.map .wrapper
+{
+width:90%;
+margin:auto;
+}
+.copyright .wrapper
+{
+width:100%;
+margin:auto;
+}
+.header
+{
+	height:50px;
+	background-color:navy;	
+}
+.header .header-fc
+{
+	display:flex;
+	justify-content:space-between;
+}
+.header .header-fc .a
+{
+	margin-top:5px;
+	height:40px;
+	width:25%;
+	background-color:pink;	
+}
+.header .header-fc .b
+{
+	margin-top:5px;
+	height:40px;
+	width:25%;
+	background-color:pink;	
+}
+.header .header-fc .c
+{
+	margin-top:5px;
+	height:40px;
+	width:25%;
+	background-color:pink;	
+}
+.new
+{
+	background-color:burlywood;
+	height:100px;
+}
+.new .new-fc
+{
+	display:flex;
+	justify-content:space-around;
+}
+.new .new-fc .amoeba
+{
+	text-align:center;
+	background-color:crimson;
+	height:50px;
+	width:10%;
+	margin-top:25px;
+}
+.new .new-fc .home
+{
+	margin-left:100px;
+	text-align:center;
+	background-color:lightgreen;
+	height:50px;
+	width:5%;
+	margin-top:25px;	
+}
+.new .new-fc .about
+{
+	text-align:center;	
+	background-color:crimson;
+	height:50px;
+	width:5%;
+	margin-top:25px;	
+}
+.new .new-fc .service
+{
+	text-align:center;
+	background-color:lightgreen;
+	height:50px;
+	width:5%;
+	margin-top:25px;	
+}
+.new .new-fc .portfolio
+{
+	text-align:center;	
+	background-color:crimson;
+	height:50px;
+	width:5%;
+	margin-top:25px;	
+}
+.new .new-fc .team
+{
+	text-align:center;	
+	background-color:lightgreen;
+	height:50px;
+	width:5%;
+	margin-top:25px;	
+}
+.new .new-fc .dropdown
+{
+	text-align:center;	
+	background-color:crimson;
+	height:50px;
+	width:5%;
+	margin-top:25px;	
+}
+.new .new-fc .contact
+{
+	text-align:center;	
+	background-color:lightgreen;
+	height:50px;
+	width:5%;
+	margin-top:25px;	
+}
+
+.about
+{
+	background-color:lemonchiffon;
+	height:400px;
+}
+.about .about-fc
+{
+	display:flex;
+	justify-content:space-around;
+}
+.about .about-fc .text
+{
+	text-align:center;
+	background-color:lightblue;
+	height:300px;
+	width:40%;
+	margin-top:50px;
+}
+.about .about-fc .image
+{
+	margin-left:100px;
+	text-align:center;
+	background-color:lightblue;
+	height:300px;
+	width:40%;
+	margin-top:50px;	
+}
+.service
+{
+	background-color:plum;
+	height:600px;
+}
+.service .service-fc
+{
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+}
+.service .service-fc .services
+{
+	text-align:center;
+	background-color:pink;
+	height:100px;
+	width:80%;
+	margin-top:25px;
+}
+.service .service-fc .lorem
+{
+	text-align:center;
+	background-color:purple;
+	height:200px;
+	width:30%;
+	margin-top:25px;	
+}
+.service .service-fc .dolor
+{
+	text-align:center;	
+	background-color:purple;
+	height:200px;
+	width:30%;
+	margin-top:25px;	
+}
+.service .service-fc .sed
+{
+	text-align:center;
+	background-color:purple;
+	height:200px;
+	width:30%;
+	margin-top:25px;	
+}
+.service .service-fc .magni
+{
+	text-align:center;	
+	background-color:purple;
+	height:200px;
+	width:30%;
+	margin-top:25px;	
+}
+.service .service-fc .nemo
+{
+	text-align:center;	
+	background-color:purple;
+	height:200px;
+	width:30%;
+	margin-top:25px;	
+}
+.service .service-fc .tempor
+{
+	text-align:center;	
+	background-color:purple;
+	height:200px;
+	width:30%;
+	margin-top:25px;	
+}
+.action
+{
+	background-color:lemonchiffon;
+	height:200px;
+}
+.action .action-fc
+{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+.action .action-fc .call
+{
+	text-align:center;
+	background-color:skyblue;
+	height:100px;
+	width:50%;
+	margin-top:16px;
+}
+.action .action-fc .button
+{
+	text-align:center;
+	background-color:skyblue;
+	height:50px;
+	width:30%;
+	margin-top:16px;	
+}
+.portfolio
+{
+	background-color:dimgrey;
+	height:840px;
+}
+.portfolio .portfolio-fc
+{
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+}
+.portfolio .portfolio-fc .a
+{
+	text-align:center;
+	background-color:darksalmon;
+	height:100px;
+	width:80%;
+	margin-top:25px;
+}
+.portfolio .portfolio-fc .b
+{
+	text-align:center;
+	background-color:cadetblue;
+	height:200px;
+	width:30%;
+	margin-top:25px;	
+}
+.portfolio .portfolio-fc .c
+{
+	text-align:center;	
+	background-color:cadetblue;
+	height:200px;
+	width:30%;
+	margin-top:25px;	
+}
+.portfolio .portfolio-fc .d
+{
+	text-align:center;
+	background-color:cadetblue;
+	height:200px;
+	width:30%;
+	margin-top:25px;	
+}
+.portfolio .portfolio-fc .e
+{
+	text-align:center;	
+	background-color:cadetblue;
+	height:200px;
+	width:30%;
+	margin-top:25px;	
+}
+.portfolio .portfolio-fc .f
+{
+	text-align:center;	
+	background-color:cadetblue;
+	height:200px;
+	width:30%;
+	margin-top:25px;	
+}
+.portfolio .portfolio-fc .g
+{
+	text-align:center;	
+	background-color:cadetblue;
+	height:200px;
+	width:30%;
+	margin-top:25px;	
+}
+.portfolio .portfolio-fc .h
+{
+	text-align:center;
+	background-color:cadetblue;
+	height:200px;
+	width:30%;
+	margin-top:25px;	
+}
+.portfolio .portfolio-fc .i
+{
+	text-align:center;	
+	background-color:cadetblue;
+	height:200px;
+	width:30%;
+	margin-top:25px;	
+}
+.portfolio .portfolio-fc .j
+{
+	text-align:center;	
+	background-color:cadetblue;
+	height:200px;
+	width:30%;
+	margin-top:25px;	
+}
+.faq
+{
+	background-color:bisque;
+	height:550px;
+}
+.faq .faq-fc
+{
+	display:flex;
+	flex-direction:column;
+}
+.faq .faq-fc .a
+{
+	margin-left:40%;
+	text-align:center;
+	background-color:violet;
+	height:50px;
+	width:30%;
+	margin-top:25px;
+}
+.faq .faq-fc .b
+{
+	text-align:center;
+	background-color:crimson;
+	height:50px;
+	width:50%;
+	margin-top:25px;	
+}
+.faq .faq-fc .c
+{
+	text-align:center;	
+	background-color:crimson;
+	height:50px;
+	width:50%;
+	margin-top:25px;	
+}
+.faq .faq-fc .d
+{
+	text-align:center;
+	background-color:crimson;
+	height:50px;
+	width:50%;
+	margin-top:25px;	
+}
+.faq .faq-fc .e
+{
+	text-align:center;	
+	background-color:crimson;
+	height:50px;
+	width:50%;
+	margin-top:25px;	
+}
+.faq .faq-fc .f
+{
+	text-align:center;	
+	background-color:crimson;
+	height:50px;
+	width:50%;
+	margin-top:25px;	
+}
+.faq .faq-fc .g
+{
+	text-align:center;	
+	background-color:crimson;
+	height:50px;
+	width:50%;
+	margin-top:25px;	
+}
+.team
+{
+	background-color:darkseagreen;
+	height:500px;
+}
+.team .team-fc
+{
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+}
+.team .team-fc .a
+{
+	text-align:center;
+	background-color:olive;
+	height:50px;
+	width:80%;
+	margin-top:50px;
+}
+.team .team-fc .b
+{
+	text-align:center;
+	background-color:linen;
+	height:300px;
+	width:30%;
+	margin-top:50px;	
+}
+.team .team-fc .c
+{
+	text-align:center;	
+	background-color:linen;
+	height:300px;
+	width:30%;
+	margin-top:50px;	
+}
+.team .team-fc .d
+{
+	text-align:center;
+	background-color:linen;
+	height:300px;
+	width:30%;
+	margin-top:50px;	
+}
+.contact
+{
+	background-color:palevioletred;
+	height:400px;
+}
+.contact .contact-fc
+{
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+}
+.contact .contact-fc .a
+{
+	text-align:center;
+	background-color:lightyellow;
+	height:50px;
+	width:80%;
+	margin-top:33px;
+}
+.contact .contact-fc .b
+{
+	text-align:center;
+	background-color:palegoldenrod;
+	height:250px;
+	width:30%;
+	margin-top:33px;	
+}
+.contact .contact-fc .c
+{
+	text-align:center;	
+	background-color:palegoldenrod;
+	height:250px;
+	width:30%;
+	margin-top:33px;	
+}
+.contact .contact-fc .d
+{
+	text-align:center;
+	background-color:palegoldenrod;
+	height:250px;
+	width:30%;
+	margin-top:33px;	
+}
+.map
+{
+	text-align:center;
+	background-color:lightblue;
+	height:300px;
+}
+.copyright
+{
+	text-align:center;
+	background-color:navy;
+	height:100px;
+}
+
+
+
